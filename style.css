@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+
 
 :root{
     --main-color:#d3ad7f;
@@ -9,7 +13,7 @@
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +46,7 @@ body{
 
 /* ** Header Page Styling Start ** */
 .header{
-    background-color: var(--main-color);
+    background-color: var(white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +81,7 @@ body{
     margin-left: 2rem;
 }
 .header .icon div:hover{
-    color: var(--bg);
+    color: var(gray);
 }
 
 #menu-btn{
@@ -94,7 +98,6 @@ body{
     top: 100%;
     transform: translate(0%, 50%); 
     user-select: none; /* -- Prevent image highlighting -- */
-  }
   
   /* 
   #image-track > .image {
