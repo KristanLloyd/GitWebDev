@@ -56,16 +56,22 @@ body{
 }
 
 .header .logo img{
-    height:  5rem;
+    height:  6rem;
 }
 
 .header .navbar a{
-    margin: 0.1rem;
+    margin:0 1rem;
     font-size: 1.6rem;
     color: var(--black);
 }
 
 .header .navbar a:hover{
+    color: var(--bg);
+    border-bottom: .1rem solid var(--black);
+    padding-bottom: .5rem;
+}
+
+.header .icon{
     
 }
 
