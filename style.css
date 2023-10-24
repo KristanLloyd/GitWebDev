@@ -108,7 +108,7 @@ body{
     margin-bottom: 30px;
 }
 
-.home .content .h1 .h3:hover{
+.home .content .h3:hover{
     color: var(--primary-color);
 }
 
