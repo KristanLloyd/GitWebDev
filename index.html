@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- Custom CSS Link -->
+    
+        <!-- Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
     <title>Sitio Cafe Webpage</title>
 </head>
@@ -51,41 +53,68 @@
        </!--div> -->
 
 
-       <!-- contact Us section -->
+ <!-- contact Us section -->
 
-       <section class = "contact" id = "contact"> </section>
-       <h1 class="heading"> Contact Us</h1>
-       <div class ="row">
+ <section class =" contact">
+    <dev class="content">
+        <h2> Contact Us</h2>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Tempore et quasi veniam cupiditate.</p>
+    </dev>
 
-       <div class= "image">
-         <img src ="./assets/sitio-logo1.jpg" alt="">
-       </div>
-
-
-        <form action="">
-            <h3>Get in touch</h3>
-        
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
+    <dev class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class ="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3> Address</h3>
+                    <p>1234sugarplum, <br>honeybunch </p>   
+                </div>
             </div>
-        
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
-            </div>
-        
-            <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="phone">
-            </div>
-        
-            <input type="submit" value="send message" class="btn">
-        
-        </form>
-    
-    </div>
-    
-    </section>
 
-    <!--end-->
+        <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+                <h3> Phone</h3>
+                <p>123456789</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+            <div class="text">
+                <h3> Email</h3>
+                <p>jsdfas@email.com </p>
+            </div>
+        </div>
+        </div>
+
+        <div class ="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required="required"> </textarea>
+                    <span>Type Your Message Here...</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="Submit" name="" value="Send">
+                </div>
+
+            </form>
+        </div>
+
+    </dev>
+</section>
+      
+<!--end-->
