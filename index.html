@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   
     <!-- Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
         integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
@@ -34,16 +34,22 @@
         </div>
     </header>
     <!-- Header Section End  -->
-
-    <!-- menu Section start  -->
     <section class="home" id="home">
         <div class="content">
             <h3>Discover the <br> taste  of real <br> coffe.</h3>
             <a href="#" class="btn">Order Now</a>
         </div>
     </section>
+    <!-- menu Section start  -->
+ 
     <section class ="menu">
-        <div><img src="assets/coffee1.jpg" width="200" height="210"></div>
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <img class="image" src="assets/coffee1.jpg" draggable="false">
+            <img class="image" src="assets/coffee2.jpg" draggable="false">
+            <img class="image" src="assets/coffee3.jpg" draggable="false">
+            <img class="image" src="assets/coffee4.jpg" draggable="false">
+        
+        </div>
     </section>
     <!-- menue Section End  -->
 
@@ -131,7 +137,7 @@
 
         </div>
     </section>
-
+    <script src="script.js"></script>
 </body>
 </html>
 
