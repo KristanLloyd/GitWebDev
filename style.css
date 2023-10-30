@@ -5,8 +5,8 @@
 
 
 :root{
-    --main-color:#d3ad7f;
-    --primary-color: #2f2721;
+    --main-color: #2f2721;
+    --primary-color:#d3ad7f;
     --black:#13131a;
     --bg:#FFFF;
     --border: .1rem solid rgba(255,255,255,.3);
@@ -46,7 +46,7 @@ body{
 
 /* ** Header Page Styling Start ** */
 .header{
-    background-color: var(white);
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,16 +66,16 @@ body{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color: var(--black);
+    color: var(--primary-color);
 }
 .header .navbar a:hover{
     color: var(--bg);
-    border-bottom: .1rem solid var(--black);
+    border-bottom: .1rem solid var(--bg);
     padding-bottom: .5rem;
 }
 
 .header .icon div{
-    color: var(--black);
+    color: var(--bg);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -88,7 +88,29 @@ body{
     display: none;
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
 
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content .h1 .h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 30px;
+}
+
+.home .content .h3:hover{
+    color: var(--primary-color);
+}
 
   /* -- #image-track {
     display: flex;
@@ -107,4 +129,141 @@ body{
     object-position: 100% center;
   }
 
- 
+*/
+
+/* Contact Section */
+
+.contact .container img{
+    height: 400px;
+    width: 500px;
+}
+
+.contact .content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color:#d3ad7f; 
+    padding-top: 50px;
+    padding-bottom: 70px; 
+    text-align: center;  
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~ span, input:valid ~span,
+.contactForm .inputBox textarea:focus~span,textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact .inputBox input[type="Submit"]{
+    width: 100px;
+    background:#d3ad7f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* end */
+
+/* Footer Section */
+.footer {
+    background: var(--main-color);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    margin-left: 7%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+
+.footer .box-container .box1 h3{
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box1 p{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ccc;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box1 .link {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--primary-color);
+    padding: .5rem 0;
+    display: block;
+}
+
+.footer .box-container .box1 .link:hover{
+    color: #ffaa42;
+    text-decoration: underline;
+}
+
+.footer .box-container .box1 .icon1 {
+    color: #ffaa42;
+    display: flex;
+    align-items:center;
+    font-size: 22px;
+}
+
+/* end */
