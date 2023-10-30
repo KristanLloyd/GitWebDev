@@ -118,8 +118,23 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(0%, -10%); 
+    transform: translate(0%, 10%); 
     user-select: none; 
+ }
+ #menu{
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 40%;   
+
+ }
+ #Text-menu{
+    font-size: 50px;
+    font-weight: 500;
+    color:#d3ad7f; 
+    padding-top: 50px;
+    padding-bottom: 70px; 
+    text-align: center; 
  }
  .image
 {
