@@ -125,6 +125,7 @@ body{
 {
     width: 35vmin;
     height: 46vmin;
+    border-radius: 12px;
 }
 
 #image-track :hover{
