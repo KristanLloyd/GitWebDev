@@ -154,41 +154,10 @@ section {
 /* Home Page Styling End */
 
 /* menu start */
-<<<<<<< Updated upstream
- #image-track {
-    display: flex;
-    gap: 4px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(0%, 10%); 
-    user-select: none; 
- }
- #menu{
-    display: flex;
-    position:relative;
-    left: 47%;
-    top: 40%;   
-
- }
- #Text-menu{
-    font-size: 50px;
-    font-weight: 500;
-    color:#d3ad7f; 
-    padding-top: 50px;
-    padding-bottom: 70px; 
-    text-align: center; 
- }
- .image
-{
-    width: 35vmin;
-    height: 46vmin;
-    border-radius: 12px;
-=======
 #image-track {
   display: flex;
   gap: 4px;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(0%, 10%);
@@ -196,7 +165,7 @@ section {
 }
 #menu {
   display: flex;
-  position: absolute;
+  position: relative;
   left: 47%;
   top: 40%;
 }
@@ -212,13 +181,7 @@ section {
   width: 35vmin;
   height: 46vmin;
   border-radius: 12px;
->>>>>>> Stashed changes
 }
-
-#image-track :hover {
-  transform: translateY(-10px);
-}
-/* menu end */
 
 /* about us section */
 
@@ -392,5 +355,3 @@ textarea:valid ~ span {
   align-items: center;
   font-size: 22px;
 }
-
-/* end */
