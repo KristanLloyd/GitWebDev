@@ -217,6 +217,20 @@ section {
 }
 .about_details span {
   color: red;
+  font-size: medium;
+}
+
+.about_details h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.about_details p {
+  color: gray;
+  font-size: 15px;
 }
 
 /* about us section end*/
