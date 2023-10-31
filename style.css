@@ -131,6 +131,29 @@ section{
 
 /*  Header Page Styling End  */
 
+/* Home Page Styling Start */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 20px;
+}
+
+/* Home Page Styling End */
 
 
 
