@@ -183,6 +183,10 @@ section {
   border-radius: 12px;
 }
 
+.image:hover{
+  transform: translateY(-10px);
+}
+
 /* about us section */
 
 .about .content h2 {
