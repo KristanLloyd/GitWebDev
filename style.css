@@ -189,16 +189,6 @@ section {
 
 /* about us section */
 
-.about .content h2 {
-  display: flex;
-  font-size: 50px;
-  font-weight: 500;
-  color: #d3ad7f;
-  padding-top: 50px;
-  padding-bottom: 70px;
-  text-align: center;
-}
-
 .about {
   display: flex;
   align-items: center;
@@ -209,7 +199,14 @@ section {
   height: 500px;
   width: 800px;
 }
-
+.about_text h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #d3ad7f;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
 .about img {
   height: 100%;
   width: auto;
