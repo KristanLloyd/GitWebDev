@@ -159,7 +159,7 @@ section{
  #image-track {
     display: flex;
     gap: 4px;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(0%, 10%); 
@@ -167,7 +167,7 @@ section{
  }
  #menu{
     display: flex;
-    position: absolute;
+    position:relative;
     left: 47%;
     top: 40%;   
 
