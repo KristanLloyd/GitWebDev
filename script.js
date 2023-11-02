@@ -1,4 +1,3 @@
-
 const track = document.getElementById("image-track");
 
 const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
@@ -28,14 +27,6 @@ const handleOnMove = (e) => {
     { duration: 1200, fill: "forwards" }
   );
 
-  for (const image of track.getElementsByClassName("image")) {
-    image.animate(
-      {
-        objectPosition: `${100 + nextPercentage}% center`,
-      },
-      { duration: 1200, fill: "forwards" }
-    );
-  }
 };
 
 /* -- Had to add extra lines for touch events -- */
