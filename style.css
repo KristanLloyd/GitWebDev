@@ -359,6 +359,32 @@ overflow: hidden;
   box-sizing: border-box;
 }
 
+.popup .popup-header {
+  padding: 15px;
+  border-bottom: 1px solid #dddddd;
+  font-size: 150%;
+}
+
+.popup .popup-body {
+  padding: 15px;
+}
+
+.popup .popup-footer {
+  padding: 15px;
+  border-top: 1px solid #dddddd;
+}
+.popup .popup-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: 0rem solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--bg);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
 .popup .close-btn {
   position: absolute;
   right: 20px;
