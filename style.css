@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 :root {
   --main-color: #2f2721;
@@ -65,11 +66,10 @@ section {
 
 /* ** Header Page Styling Start ** */
 .header {
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background: var(--main-color);
   padding: 2rem 10%;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ section {
   margin-right: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: var(--bg);
+  color: white;
 }
 
 .header .navbar a:hover {
@@ -160,8 +160,7 @@ section {
   left: 47%;
   top: 40%;
   box-sizing: content-box;
-width: 100%;
-  
+  width: 100%;
 }
 #Text-menu {
   font-size: 50px;
@@ -170,7 +169,7 @@ width: 100%;
   padding-top: 20px;
   text-align: center;
 }
-#menu-title{
+#menu-title {
   font-size: 50px;
   font-weight: 500;
   color: #d3ad7f;
@@ -188,13 +187,13 @@ width: 100%;
   user-select: none;
   overflow: hidden;
 }
- .imagebox { 
-     position: relative;
-     width: 35vmin;
-     height: 46vmin;
-      float: center; 
-      margin: 10px;               
- }
+.imagebox {
+  position: relative;
+  width: 35vmin;
+  height: 46vmin;
+  float: center;
+  margin: 10px;
+}
 .imagebox img {
   vertical-align: middle;
   width: 35vmin;
@@ -202,88 +201,83 @@ width: 100%;
   border-radius: 12px;
   overflow: hidden;
 }
-.imagebox:hover .caption
-{ 
-    opacity: 0.6;
-    text-align:center;
-    color:#000000;
-    font-size:30px;
-    font-weight:700;
-    font-family:"Times New Roman", Times, serif;
-    padding:30px;
-    overflow: hidden;
+.imagebox:hover .caption {
+  opacity: 0.6;
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+  overflow: hidden;
 }
-.caption{
- 
-    width: 35vmin;
-    height: 46vmin;
-    background:#aeaaaa;
-    opacity:0;   
-    position: absolute;
-    overflow: hidden;
-    top: 1px; 
-    border-radius: 12px;
+.caption {
+  width: 35vmin;
+  height: 46vmin;
+  background: #aeaaaa;
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  top: 1px;
+  border-radius: 12px;
 }
-#menu-item{
+#menu-item {
   display: inline-block;
   position: relative;
 }
-.menu2{
+.menu2 {
   display: grid;
-  grid-template-columns:35vmin 35vmin 35vmin;
+  grid-template-columns: 35vmin 35vmin 35vmin;
   grid-template-rows: 37vmin 37vmin 37vmin;
   gap: 4px;
- justify-content: center;
+  justify-content: center;
   margin-top: 5%;
-  float: center; 
+  float: center;
   overflow: hidden;
-
 }
 
-.menu2 img{
+.menu2 img {
   width: 25vmin;
   height: 36vmin;
-overflow: hidden;
+  overflow: hidden;
 }
 
-.item { 
+.item {
   position: relative;
   width: 25vmin;
   height: 36vmin;
   box-sizing: border-box;
-  float: center;       
+  float: center;
   border-radius: 12px;
   box-shadow: 10px 10px 18px -8px #aaaaaa, -10px -10px 24px #c8c6c6;
-  overflow: hidden;   
+  overflow: hidden;
 }
 .item img {
-vertical-align: middle;
-border-radius: 12px;
-width: 25vmin;
-  height: 36vmin;
-overflow: hidden;
-}
-.caption2{
- 
+  vertical-align: middle;
+  border-radius: 12px;
   width: 25vmin;
   height: 36vmin;
-  background:#aeaaaa;
-  opacity:0;   
+  overflow: hidden;
+}
+.caption2 {
+  width: 25vmin;
+  height: 36vmin;
+  background: #aeaaaa;
+  opacity: 0;
   position: absolute;
   overflow: hidden;
-  top: 1px; 
+  top: 1px;
   border-radius: 12px;
 }
-.item:hover .caption2
-{ 
- opacity: 0.6;
- text-align:center;
- color:#000000;
- font-size:20px;
- font-weight:700;
- font-family:"Times New Roman", Times, serif;
- padding:30px;
- overflow: hidden;
+.item:hover .caption2 {
+  opacity: 0.6;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+  overflow: hidden;
 }
 /* about us section */
 
@@ -295,7 +289,7 @@ overflow: hidden;
   padding: 40px 47px;
   box-shadow: 10px 10px 18px -8px #aaaaaa, -10px -10px 24px #ffffff;
   height: 500px;
-  width: 800px;
+  width: 850px;
 }
 .about_text h2 {
   font-size: 50px;
@@ -321,9 +315,9 @@ overflow: hidden;
 }
 
 .about_details h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 100;
-  font-size: 26px;
+  font-size: 22px;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -361,17 +355,19 @@ overflow: hidden;
 
 .popup .popup-header {
   padding: 15px;
-  border-bottom: 1px solid #dddddd;
-  font-size: 150%;
+  border-bottom: 3px solid #dddddd;
+  font-size: 20px;
 }
 
 .popup .popup-body {
-  padding: 15px;
+  padding: 100px;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 .popup .popup-footer {
   padding: 15px;
-  border-top: 1px solid #dddddd;
+  border-top: 3px solid #dddddd;
 }
 .popup .popup-more {
   display: inline-block;
@@ -412,7 +408,6 @@ overflow: hidden;
 /* learn-more-popup box ends*/
 
 /* about us section end*/
-
 
 /* Contact Section */
 
@@ -505,7 +500,7 @@ textarea:valid ~ span {
 /* Footer Section */
 
 .footer {
-  background: var(--main-color); 
+  background: var(--main-color);
 }
 
 .footer .box-container {
@@ -547,15 +542,12 @@ textarea:valid ~ span {
   font-size: 22px;
 }
 
-
-
-@media (max-width:991px) {
-
-  .contact{
+@media (max-width: 991px) {
+  .contact {
     margin-bottom: -40%;
   }
   .container {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   .container .contactForm {
@@ -566,16 +558,16 @@ textarea:valid ~ span {
     width: 100%;
   }
 
-  .footer{
+  .footer {
     align-self: auto;
-    overflow: auto;  
+    overflow: auto;
   }
 
- .footer .box-container .box1 h3 {
-   font-size: 2rem;
- }
+  .footer .box-container .box1 h3 {
+    font-size: 2rem;
+  }
 
- .footer .box-container .box1 .icon1 {
-   font-size: 20px;
- }
+  .footer .box-container .box1 .icon1 {
+    font-size: 20px;
+  }
 }
