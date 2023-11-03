@@ -26,7 +26,6 @@ const handleOnMove = (e) => {
     },
     { duration: 1200, fill: "forwards" }
   );
-
 };
 
 /*lines for touch events*/
