@@ -2,12 +2,254 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   
+    <!-- Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+        <!-- Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
-    <title>Sitio Cafe Webpage</title>
+    <title>sitio café</title>
 </head>
 <body>
+
+    <!-- Header Section Start-->
+
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-coffee"></i>Sitio Café</a>
+        
+        <nav class="navbar">
+            <div class="fas fa-times" id="close-navbar"></div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Text-menu">Menu</a>
+            <a href="#content">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bar" id="menu-btn"></div>
+        </div>
     
+    </header>
+    <!-- Header Section End  -->
+
+    <!-- Home Section Start  -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Discover the <br> SITIO CAFÉ <br> coffee.</h3>
+            <a href="#Text-menu" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Home Section End  -->
+     <!-- About Us Section Start  -->
+    <section clas="about" id="about">
+        <div class="about_text">
+              <h2>About Us</h2>
+        </div>
+        <div class="about">
+            <img src="./assets/about.jpg" alt="about">
+            <div class="about_details">
+                <span>About sitio café</span>
+                <br>
+                <br>
+                <br>
+                <h2> We provide quality coffee experience to our customers by handcrafting our beverages with our hands and heart.</h2>
+                <p>Sitio Café is a small local coffee shop that started with passion for coffee and a vision to cater everyone with quality coffee.</p>
+                <br>
+                <!--learn-more-popup box start-->
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn"onclick="togglePopup()">&times;</div>
+                <div class="popup-header">
+                    <h3>About the Coffee and Café  </h3>
+                </div>
+                <div class="popup-body">
+                    <p> Our coffee is unique because every part of our menu is with filipino touch. 
+                        <br>We want our customers to have connection with our offerings,</p>
+                        <br>
+                    <p>Sitio Cafe started unexpectedly. We just thought of starting a pop up business and it came out well. 
+                        <br>Now, we are thriving and going strong. 
+                        <br>The name Sitio is a spanish word that means Location or Street. 
+                        <br>We came up with the idea of naming it Sitio Cafe, a lowkey and to go place for coffee for all.</p>
+                </div>
+                <div class="popup-footer">
+                </div>
+            </div>
+        </div>
+ <!--learn-more-popup box ends-->
+        <button class="btn" onclick="togglePopup()">Learn More</button>
+                
+
+            </div>
+        </div>
+    </section>
+            
+    <!--learn-more-popup box ends-->
+
+    <!--end-->
+    
+    <!-- menu Section start  -->
+ 
+    <section class ="menu">
+     
+        <div id="menu">
+          
+            <p id="Text-menu"><br>Menu</p>
+        </div>
+            <p id="menu-title">Signature Menu</p>
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <div class="imagebox">
+               <img src="assets/coffee8.jpg">
+                <div class="caption">Pastillas Latte<br><br>Priced At ₱175</div>             
+            </div>
+            <div class="imagebox">
+               <img src="assets/coffee8.jpg">
+                <div class="caption">Spanish Latte<br><br>Priced At ₱165 </div>             
+            </div>
+            <div class="imagebox">
+               <img src="assets/coffee10.jpg">
+                <div class="caption">Ube Latte<br><br>Priced At ₱175</div>             
+            </div>
+            <div class="imagebox">
+               <img src="assets/coffee1.jpg">
+                <div class="caption">Sea Salt Latte<br><br>Priced At ₱165</div>             
+            </div>
+       </div>
+
+       <div class="menu2">
+        <div class="item">
+            <img src="assets/coffee1.jpg" alt="Carramel Machiato">  
+            <div class="caption2">Caramel Macchiato ₱175</div>   
+        </div>
+        <div class="item">
+            <img src="assets/coffee2.jpg" alt="Cafe Mocha">
+            <div class="caption2">Cafe Mocha ₱165</div> 
+         </div>
+        <div class="item">
+            <img src="assets/coffee3.jpg" alt="Pink Milk">
+            <div class="caption2">Pink Milk ₱140</div> 
+         </div>
+        <div class="item">
+            <img src="assets/coffee4.jpg" alt="Maccha Tea Latte">
+            <div class="caption2">Maccha Tea Latte ₱165 </div> 
+         </div>
+        <div class="item">
+            <img src="assets/coffee5.jpg" alt="Dirty Maccha Latte">
+            <div class="caption2">Dirty Maccha Latte ₱175</div>  
+        </div>
+        <div class="item">
+            <img src="assets/coffee6.jpg" alt="Chocolate Milk">
+            <div class="caption2">Chocolate Milk ₱140</div>  
+        </div>
+        <div class="item">
+            <img src="assets/coffee7.jpg" alt="Cafe Latte">
+            <div class="caption2">Cafe Latte ₱165</div>  
+        </div>
+        <div class="item">
+            <img src="assets/coffee9.jpg" alt="Americano">
+            <div class="caption2">Americano ₱120</div>  
+        </div>
+        <div class="item">
+            <img src="assets/coffee11.jpg" alt="Vanilla Latte ">
+            <div class="caption2">Vanilla Latte ₱140</div>  
+        </div>
+       </div>
+   
+    </section>
+
+
+    <!-- menue Section End  -->
+
+   
+    
+    <!-- Contact Section Start  -->
+    <section class ="contact">
+        <div class="content" id="content">
+            <h2> Contact Us</h2>
+        </div>
+        <div class="container">
+            
+            <img src="./assets/contactIMG6.jpg" alt="contactBG">
+        
+            <div class ="contactForm">
+                <form>
+                    
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+    
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+    
+                    <div class="inputBox">
+                        <textarea required="required"> </textarea>
+                        <span>Type Your Message Here...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="Submit" name="" value="Send">
+                    </div>
+    
+                </form>
+            </div>
+    
+        </div>
+    </section>
+    <!--end-->
+
+    <!--Start of Footer section-->
+    <section class="footer">
+        <div class="box-container">
+    
+            <div class="box1">
+                <div class="icon1"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text1">
+                    <h3> Address</h3>
+                    <p>088 Sampaloc Road, Dolores <br>San Fernando, Philippines, 2000 </p>
+                </div>
+            </div>          
+
+            <div class="box1">
+                <div class="icon1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="text1">
+                    <h3> E-mail</h3>
+                    <a href="#" class="link">sitiocafeph@gmail.com</a>
+                </div>
+            </div>
+    
+            <div class="box1">
+                <div class="icon1"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="text1">
+                    <h3> Call Us</h3>
+                    <p>+62 1234 2541</p>
+                </div>
+            </div>
+    
+            <div class="box1">
+                <div class="icon1"><i class="fa fa-clock" aria-hidden="true"></i></div>
+                <div class="text1">
+                    <h3>Opening hours</h3>
+                    <p>Monday - Saturday: 13:00 - 21:00
+                    <br> Close at Sunday </p>
+                </div>
+            </div>
+            
+           
+          </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
+
+<!--end-->
