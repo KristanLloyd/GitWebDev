@@ -157,13 +157,14 @@ section {
 #menu {
   display: flex;
   position: relative;
-  left: 47%;
+  left: 46%;
   top: 40%;
   box-sizing: content-box;
   width: 100%;
 }
 #Text-menu {
   font-size: 50px;
+  right: 5%;
   font-weight: 500;
   color: #d3ad7f;
   padding-top: 20px;
@@ -181,13 +182,14 @@ section {
   text-align: center;
   display: flex;
   position: relative;
-  left: 40%;
+  left: 5%;
   top: 50%;
   transform: translate(0%, 10%);
   user-select: none;
   overflow: hidden;
 }
 .imagebox {
+
   position: relative;
   width: 35vmin;
   height: 46vmin;
@@ -227,6 +229,7 @@ section {
 }
 .menu2 {
   display: grid;
+ 
   grid-template-columns: 35vmin 35vmin 35vmin;
   grid-template-rows: 37vmin 37vmin 37vmin;
   gap: 4px;
@@ -237,12 +240,14 @@ section {
 }
 
 .menu2 img {
+
   width: 25vmin;
   height: 36vmin;
   overflow: hidden;
 }
 
 .item {
+  left: 15%;
   position: relative;
   width: 25vmin;
   height: 36vmin;
@@ -279,6 +284,7 @@ section {
   padding: 30px;
   overflow: hidden;
 }
+/* end of menu section */
 /* about us section */
 
 .about {
