@@ -550,32 +550,4 @@ textarea:valid ~ span {
   font-size: 22px;
 }
 
-@media (max-width: 991px) {
-  .contact {
-    margin-bottom: -40%;
-  }
-  .container {
-    flex-direction: column;
-  }
 
-  .container .contactForm {
-    margin-bottom: 10em;
-  }
-
-  .container .contactForm {
-    width: 100%;
-  }
-
-  .footer {
-    align-self: auto;
-    overflow: auto;
-  }
-
-  .footer .box-container .box1 h3 {
-    font-size: 2rem;
-  }
-
-  .footer .box-container .box1 .icon1 {
-    font-size: 20px;
-  }
-}
