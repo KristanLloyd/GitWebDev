@@ -1,3 +1,13 @@
+let navbar = document.querySelector('.header .navbar');
+
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.add('active');
+}
+
+document.querySelector('#close-navbar').onclick = () =>{
+    navbar.classList.remove('active');
+}
+
 const track = document.getElementById("image-track");
 
 const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
@@ -46,13 +56,3 @@ window.ontouchmove = (e) => handleOnMove(e.touches[0]);
 function togglePopup() {
   document.getElementById("popup-1").classList.toggle("active");
 }
-
-let navbar = document.querySelector(".header .navbar");
-
-document.querySelector("#menu-btn").onclick = () => {
-  navbar.classList.add("active");
-};
-
-document.querySelector("#close-navbar").onclick = () => {
-  navbar.classList.remove("active");
-};
