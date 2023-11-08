@@ -1,86 +1,75 @@
-@media (max-width: 768px){
-    .header .icons div{
-        font-size: 2rem;
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
     }
 
+    .header{
+        padding:2rem 5%;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
     .header #menu-btn{
-        display: block;
+        display: inline-block;
     }
 
     .header .navbar{
-        display: none;
+        position: fixed;
+        top: 0; right: -105%;
+        width: 30rem;
+        background: #fff;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                -ms-flex-flow: column;
+                     flex-flow: column;
+        -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                   justify-content: center;
+        z-index: 1200;                         
     }
 
-    .header .navbar.active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: var(--main-color);
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 999;
-        text-align: center;
-      }
-
-      .header .navbar.active a {
-        font-size: 2rem;
-        margin: 1rem 0;
-      }
-
-      .header .navbar.active #close-navbar {
+    .header .navbar #close-navbar{
         display: block;
-      }
-}
+    }
 
-@media (max-width: 576px) {
-    .home .content h3{
+    .header .navbar.active{
+        box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+        right: 0;
+    }
+
+    .header .navbar a{
+        color: var(--black);
+        display: block;
+        margin: 1rem 0;
+        text-align: center;
         font-size: 3rem;
     }
 
-    .about {
-        margin: 2rem 2%;
-        padding 10px;
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
     }
 
-    .menu   {
-        left: 50%;
-        top: 5%;
-    }
-
-    #Text-menu {
-        font-size: 1.5rem;
-        left: 0;
-    }
-
-    .menu2{
-        grid-template-columns: repeat(auto-fit, minmax(40vmin, 1fr));
-        grid-gap: 1rem;
-        margin-top: 2%;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    .contact .container img{
-        width: 100%;
-        height: auto;
-    }
-
-    .contact .content h2{
-        font-size: 1.5rem;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
-
-    .contactForm{
-        width: 90%;
-        padding: 1rem;
+    .home .content h3{
+        font-size: 4rem;
     }
 }
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
