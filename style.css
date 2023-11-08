@@ -68,73 +68,74 @@ section{
 }
 
 /* ** Header Page Styling Start ** */
-.header {
-  position: absolute;
+.header{
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
+  background: var(--main-color);
   padding: 2rem 10%;
   display: flex;
   align-items: center;
   z-index: 1000;
 }
 
-.header .logo {
+.header .logo{
   margin-right: auto;
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: var(--bg);
+  color: #fff;
   font-weight: bolder;
 }
 
-.header .logo i {
-  color: var(--bg);
+.header .logo i{
+  color: #fff;
 }
 
-.header .navbar {
+.header .navbar{
   position: relative;
 }
 
-.hearder .navbar #close-navbar {
+.header .navbar #close-navbar{
   position: absolute;
   top: 1.5rem;
   right: 2rem;
   font-size: 4rem;
   cursor: pointer;
-  color: #4444;
+  color: #444;
   display: none;
 }
 
-.header .navbar a {
+.header .navbar a{
   margin-right: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: white;
+  color: #fff;
 }
 
-.header .navbar a:hover {
+.header .navbar a:hover{
   color: var(--primary-color);
 }
 
-.header .icons div {
+.header .icons div{
   margin-left: 1.5rem;
   cursor: pointer;
-  color: var(--bg);
+  color: #fff;
   font-size: 2.5rem;
 }
-.header .icons div:hover {
+
+.header .icons div:hover{
   color: var(--primary-color);
 }
 
-.header #menu-btn {
+.header #menu-btn{
   display: none;
 }
 
 /*  Header Page Styling End  */
 
 /* Home Page Styling Start */
-
-.home {
+.home{
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -143,21 +144,20 @@ section{
   background-position: center;
 }
 
-.home .content {
+.home .content{
   max-width: 60rem;
 }
 
-.home .content h3 {
+.home .content h3{
   font-size: 6rem;
   text-transform: uppercase;
-  color: var(--bg);
+  color: #fff;
   margin-bottom: 20px;
 }
-
 /* Home Page Styling End */
 
-/* about us section */
 
+/* about us section */
 .about {
   display: flex;
   align-items: center;
