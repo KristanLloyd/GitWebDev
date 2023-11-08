@@ -34,3 +34,53 @@
         display: block;
       }
 }
+
+@media (max-width: 576px) {
+    .home .content h3{
+        font-size: 3rem;
+    }
+
+    .about {
+        margin: 2rem 2%;
+        padding 10px;
+    }
+
+    .menu   {
+        left: 50%;
+        top: 5%;
+    }
+
+    #Text-menu {
+        font-size: 1.5rem;
+        left: 0;
+    }
+
+    .menu2{
+        grid-template-columns: repeat(auto-fit, minmax(40vmin, 1fr));
+        grid-gap: 1rem;
+        margin-top: 2%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact .container img{
+        width: 100%;
+        height: auto;
+    }
+
+    .contact .content h2{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .contactForm{
+        width: 90%;
+        padding: 1rem;
+    }
+}
