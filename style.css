@@ -153,6 +153,127 @@ section {
 
 /* Home Page Styling End */
 
+/* menu start */
+#menu {
+  display: flex;
+  position: relative;
+  left: 46%;
+  top: 40%;
+}
+#Text-menu {
+  font-size: 50px;
+  right: 5%;
+  font-weight: 500;
+  color: #d3ad7f;
+  padding-top: 20px;
+  text-align: center;
+}
+#menu-title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #d3ad7f;
+  text-align: center;
+}
+#image-track {
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 50%;
+  user-select: none;
+}
+.imagebox {
+
+  position: relative;
+  width: 35vmin;
+  height: 46vmin;
+  margin: 10px;
+}
+.imagebox img {
+  vertical-align: middle;
+  width: 35vmin;
+  height: 46vmin;
+  border-radius: 12px;
+
+}
+.imagebox:hover .caption {
+  opacity: 0.6;
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+
+}
+.caption {
+  width: 35vmin;
+  height: 46vmin;
+  background: #aeaaaa;
+  opacity: 0;
+  position: absolute;
+  top: 1px;
+  border-radius: 12px;
+}
+#menu-item {
+  display: inline-block;
+  position: relative;
+}
+.menu2 {
+  display: grid;
+ 
+  grid-template-columns: 35vmin 35vmin 35vmin;
+  grid-template-rows: 37vmin 37vmin 37vmin;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 5%;
+  float: center;
+}
+
+.menu2 img {
+
+  width: 25vmin;
+  height: 36vmin;
+}
+
+.item {
+  left: 15%;
+  position: relative;
+  width: 25vmin;
+  height: 36vmin;
+  box-sizing: border-box;
+  float: center;
+  border-radius: 12px;
+  box-shadow: 10px 10px 18px -8px #aaaaaa, -10px -10px 24px #c8c6c6;
+}
+.item img {
+  vertical-align: middle;
+  border-radius: 12px;
+  width: 25vmin;
+  height: 36vmin;
+}
+.caption2 {
+  width: 25vmin;
+  height: 36vmin;
+  background: #aeaaaa;
+  opacity: 0;
+  position: absolute;
+  top: 1px;
+  border-radius: 12px;
+}
+.item:hover .caption2 {
+  opacity: 0.6;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+
+}
+/* end of menu section */
 /* about us section */
 
 .about {
@@ -234,7 +355,7 @@ section {
 }
 
 .popup .popup-body {
-  padding: 50px;
+  padding: 100px;
   font-size: 45px;
   font-weight: 500;
 }
@@ -282,137 +403,6 @@ section {
 /* learn-more-popup box ends*/
 
 /* about us section end*/
-
-/* menu start */
-#menu {
-  display: flex;
-  position: relative;
-  left: 46%;
-  top: 40%;
-  box-sizing: content-box;
-  width: 100%;
-}
-#Text-menu {
-  font-size: 50px;
-  left: 5%;
-  font-weight: 500;
-  color: #d3ad7f;
-  padding-top: 20px;
-  text-align: center;
-}
-#menu-title {
-  font-size: 40px;
-  font-weight: 500;
-  color: #d3ad7f;
-  text-align: center;
-}
-#image-track {
-  padding: 0;
-  margin-top: 20px;
-  text-align: center;
-  display: flex;
-  position: relative;
-  left: 5%;
-  top: 50%;
-  transform: translate(0%, 10%);
-  user-select: none;
-  overflow: hidden;
-}
-.imagebox {
-  position: relative;
-  width: 35vmin;
-  height: 46vmin;
-  float: center;
-  margin: 10px;
-}
-.imagebox img {
-  vertical-align: middle;
-  width: 35vmin;
-  height: 46vmin;
-  border-radius: 12px;
-  overflow: hidden;
-}
-.imagebox:hover .caption {
-  opacity: 0.6;
-  text-align: center;
-  color: #000000;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
-  padding: 30px;
-  overflow: hidden;
-}
-.caption {
-  width: 35vmin;
-  height: 46vmin;
-  background: #aeaaaa;
-  opacity: 0;
-  position: absolute;
-  overflow: hidden;
-  top: 1px;
-  border-radius: 12px;
-}
-#menu-item {
-  display: inline-block;
-  position: relative;
-}
-.menu2 {
-  display: grid;
-
-  grid-template-columns: 35vmin 35vmin 35vmin;
-  grid-template-rows: 37vmin 37vmin 37vmin;
-  gap: 4px;
-  justify-content: center;
-  margin-top: 5%;
-  float: center;
-  overflow: hidden;
-}
-
-.menu2 img {
-  width: 25vmin;
-  height: 36vmin;
-  overflow: hidden;
-}
-
-.item {
-  left: 15%;
-  position: relative;
-  width: 25vmin;
-  height: 36vmin;
-  box-sizing: border-box;
-  float: center;
-  border-radius: 12px;
-  box-shadow: 10px 10px 18px -8px #aaaaaa, -10px -10px 24px #c8c6c6;
-  overflow: hidden;
-}
-.item img {
-  vertical-align: middle;
-  border-radius: 12px;
-  width: 25vmin;
-  height: 36vmin;
-  overflow: hidden;
-}
-.caption2 {
-  width: 25vmin;
-  height: 36vmin;
-  background: #aeaaaa;
-  opacity: 0;
-  position: absolute;
-  overflow: hidden;
-  top: 1px;
-  border-radius: 12px;
-}
-.item:hover .caption2 {
-  opacity: 0.6;
-  text-align: center;
-  color: #000000;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
-  padding: 30px;
-  overflow: hidden;
-}
-/* end of menu section */
 
 /* Contact Section */
 
