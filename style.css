@@ -290,7 +290,7 @@ section{
 #menu {
   display: flex;
   position: relative;
-  left: 46%;
+  left: 45%;
   top: 40%;
   box-sizing: content-box;
   width: 100%;
