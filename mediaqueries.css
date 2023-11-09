@@ -1,3 +1,12 @@
+@media screen and (max-width: 1200px) {
+
+  #image-track{
+    display:flex;
+
+  }
+}
+
+
 @media (max-width:991px){
 
     html{
