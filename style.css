@@ -338,7 +338,7 @@ section{
   font-size: 30px;
   font-weight: 700;
   font-family: "Times New Roman", Times, serif;
-  padding: 30px;
+  padding: 15px;
 
 }
 .caption {
@@ -347,7 +347,6 @@ section{
   background: #aeaaaa;
   opacity: 0;
   position: absolute;
-
   top: 1px;
   border-radius: 12px;
 }
