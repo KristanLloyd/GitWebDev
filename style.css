@@ -416,8 +416,8 @@ section {
 }
 
 .contact .container img {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
 }
 
 .contact .content h2 {
@@ -542,3 +542,4 @@ textarea:valid ~ span {
   text-align: center;
   opacity: 15%;
 }
+/* end */
