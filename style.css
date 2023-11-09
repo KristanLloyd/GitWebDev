@@ -404,7 +404,6 @@ section {
 /* end of menu section */
 
 /* Contact Section */
-
 .container {
   width: 100%;
   display: flex;
@@ -488,11 +487,9 @@ textarea:valid ~ span {
   padding: 10px;
   font-size: 18px;
 }
-
 /* end */
 
 /* Footer Section */
-
 .footer {
   background: var(--main-color);
 }
