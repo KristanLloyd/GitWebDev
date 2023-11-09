@@ -139,7 +139,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(./assets/background.jpg);
+  background: url(./assets/backgroundimg.jpg);
   background-size: cover;
   background-position: center;
 }
