@@ -104,10 +104,10 @@
 /* menu start */
 @media (max-width:980px){
     #Text-menu{
-        font-size: 30px;
+        font-size: 40px;
     }
     #menu-title{
-        font-size: 25px;
+        font-size: 35px;
     }
     .imagebox img{
         width: 20vmin;
