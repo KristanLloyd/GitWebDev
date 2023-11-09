@@ -282,46 +282,6 @@ section {
   transform: translate(-50%, -50%) scale(1);
 }
 
-@media (max-width: 991px) {
-  .about {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    margin: 2rem 5%;
-    padding: 8vw 10vw;
-  }
-  .about img {
-    text-align: center;
-    margin-top: 40px;
-    width: 70%;
-    margin-bottom: 10em;
-    border-radius: 4vw;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .popup .content {
-      width: 90%;
-      padding: 10px;
-    }
-
-    .popup .popup-header {
-      font-size: 18px;
-    }
-
-    .popup .popup-body {
-      font-size: 16px;
-      padding: 20px;
-    }
-
-    .popup .close-btn {
-      width: 30px;
-      height: 30px;
-      font-size: 25px;
-      line-height: 30px;
-    }
-  }
-}
 /* learn-more-popup box ends*/
 
 /* about us section end*/
