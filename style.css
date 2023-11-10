@@ -537,6 +537,6 @@ textarea:valid ~ span {
   font-size: 1.5rem;
   color: #ccc;
   text-align: center;
-  opacity: 15%;
+  opacity: 50%;
 }
 /* end */
